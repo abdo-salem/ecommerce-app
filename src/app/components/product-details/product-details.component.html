@@ -1,1 +1,46 @@
-<p>product-details works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-lg-5 text-center">
+      <img [src]="product.image" alt="img" />
+    </div>
+    <div class="col-12 col-lg-7 mt-3 info">
+      <h4 class="mb-3">
+        {{ product.title }}
+      </h4>
+      <p>
+        الماركة: <span>{{ product.brand }}</span>
+      </p>
+      <p>
+        الوصف: <span> {{ product.description }}</span>
+      </p>
+      <p>
+        الصنف: <span> {{ product.category }}</span>
+      </p>
+      <p>
+        الكمية: <span>{{ product.stock }}</span>
+      </p>
+      <h2 class="fw-b mt-3 mb-5">
+        {{ product.price | currency }}
+      </h2>
+      <button type="button" class="btn col-12 fs-2">اطلب الان</button>
+    </div>
+  </div>
+  <!-- <div class="card mb-3">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="..." class="img-fluid rounded-start" alt="..." />
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">لوريم</h5>
+          <p class="card-text">
+            لوريم ابسيوم نتب تنبى نتسيىش نتسش نيتس نسشي تن
+          </p>
+          <p class="card-text">
+            <small class="text-muted">يمنى نمىسي منىيس مشنى</small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+</div>

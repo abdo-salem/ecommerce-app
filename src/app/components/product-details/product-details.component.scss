@@ -1,0 +1,37 @@
+.container {
+  min-height: 50vh;
+  margin: 50px auto;
+  color: #254276;
+  img {
+    height: 60vh;
+    width: 75%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .info {
+    h4 {
+      border-bottom: 2px solid #ff8b1a;
+      width: 20%;
+      padding-bottom: 7px;
+    }
+    p {
+      color: #ff8b1a;
+      font-size: 20px;
+      span {
+        color: #254276;
+        font-size: 18px;
+      }
+    }
+    button {
+      background: linear-gradient(to right, #254276, #ff8b1a);
+      color: #fff;
+      &:hover {
+        color: #254276;
+      }
+    }
+  }
+  //   background-color: rgb(236, 236, 236);
+}

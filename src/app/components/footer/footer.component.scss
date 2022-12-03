@@ -1,0 +1,26 @@
+footer {
+  padding: 0;
+  position: relative;
+  background-color: #ff8b1a;
+  color: #fff;
+  width: 100%;
+  padding-top: 12px;
+  .container {
+    ul {
+      list-style: none;
+      width: 50%;
+      margin: 0 auto;
+    }
+    .social {
+      i {
+        color: #fff;
+      }
+    }
+    .payment {
+      i {
+        color: #254276;
+        font-size: 18px;
+      }
+    }
+  }
+}

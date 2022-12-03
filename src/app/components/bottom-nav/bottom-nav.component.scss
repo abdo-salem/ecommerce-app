@@ -1,0 +1,16 @@
+.container-fluid {
+  background-color: rgb(236, 236, 236);
+  padding: 20px 0;
+  .container {
+    color: #254276;
+    ul {
+      list-style: none;
+      li {
+        i {
+          color: #ff8b1a;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

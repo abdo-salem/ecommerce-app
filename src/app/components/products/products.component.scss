@@ -1,0 +1,50 @@
+.container {
+  h3 {
+    color: #254276;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ff8b1a;
+    width: 13%;
+    font-size: 22px;
+  }
+  .offers {
+    margin: 15px 0;
+    div {
+      width: 50%;
+      text-align: center;
+      img {
+        width: 15%;
+      }
+      i {
+        font-size: 50px;
+      }
+      p {
+        font-weight: bold;
+      }
+    }
+  }
+  .latest {
+    color: #000 !important;
+  }
+}
+
+.card {
+  background-color: rgb(236, 236, 236);
+  &:hover {
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.15);
+  }
+  h5 {
+    color: #ff8b1a;
+  }
+  p {
+    color: #254276;
+  }
+  a {
+    background-color: #fff;
+    color: #ff8b1a;
+    border: 1px solid #ff8b1a;
+    &:hover {
+      color: #fff;
+      background-color: #ff8b1a;
+    }
+  }
+}
