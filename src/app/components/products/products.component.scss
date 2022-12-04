@@ -2,6 +2,7 @@
   h3 {
     color: #254276;
     padding-bottom: 5px;
+    margin: 40px 0 20px 0;
     border-bottom: 2px solid #ff8b1a;
     width: 13%;
     font-size: 22px;
@@ -45,6 +46,32 @@
     &:hover {
       color: #fff;
       background-color: #ff8b1a;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    .offers {
+      img {
+        width: 50%;
+      }
+    }
+    h3 {
+      width: 35%;
+    }
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 790px) {
+  .container {
+    .offers {
+      img {
+        width: 50%;
+      }
+    }
+    h3 {
+      width: 35%;
     }
   }
 }
